@@ -1,4 +1,6 @@
 version: 1
+build-settings:
+  image: public.ecr.aws/sam/build-nodejs18.x:latest
 frontend:
   phases:
     preBuild:
